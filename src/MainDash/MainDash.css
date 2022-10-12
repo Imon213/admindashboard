@@ -1,0 +1,22 @@
+.main-dash {
+    display: flex;
+    flex-direction: column;
+    
+}
+@media screen and (max-width:768px) {
+    .main-dash {
+        width: auto;
+        align-items: center;
+       justify-content: center;
+   
+      
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .main-dash {
+        width: 100%;
+       
+    }
+}
+
